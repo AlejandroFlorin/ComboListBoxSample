@@ -158,7 +158,7 @@
 
     Public Property AllowReorder() As Boolean
         'Determines if the up and down reorder buttons are displayed
-        'The buttons will do nothing if IsSequenced 
+        'The buttons will do nothing if IsSequencedList is true
         Get
             If ViewState("AllowReorder") IsNot Nothing Then
                 Return CBool(ViewState("AllowReorder"))
