@@ -930,30 +930,8 @@
     Private Sub SetJavaScripts()
 
         If EntryMode = EntryModes.TextBox Then
-
-            Dim txtSourceEntryOnKeyPress As New System.Text.StringBuilder
-            Dim txtSourceEntryOnPaste As New System.Text.StringBuilder
-
-            With txtSourceEntryOnKeyPress
-                .Append("handleTextBoxOnKeyPress(")
-                .Append(MaxListItemLength.ToString)
-                .Append(",'")
-                .Append(ibtnAddConfirm.ClientID)
-                .Append("', event);")
-            End With
-            With txtSourceEntryOnPaste
-                .Append("handleTextBoxOnPaste(")
-                .Append(MaxListItemLength.ToString)
-                .Append(",'")
-                .Append(txtSourceEntry.ClientID)
-                .Append("','")
-                .Append("', event);")
-            End With
-
             txtSourceEntry.MaxLength = MaxListItemLength
-            txtSourceEntry.Attributes.Add("onkeypress", txtSourceEntryOnKeyPress.ToString)
-            txtSourceEntry.Attributes.Add("onpaste", txtSourceEntryOnPaste.ToString)
-
+            txtSourceEntry.Attributes.Add("onkeypress", String.Format("handleTextBoxOnKeyPress({0},'{1}',event);", MaxListItemLength.ToString, ibtnAddConfirm.ClientID))
         End If
 
     End Sub

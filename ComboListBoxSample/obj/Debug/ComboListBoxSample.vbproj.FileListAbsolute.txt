@@ -8,3 +8,13 @@ D:\My Documents\Visual Studio 2015\Projects\ComboListBoxSample\ComboListBoxSampl
 D:\My Documents\Visual Studio 2015\Projects\ComboListBoxSample\ComboListBoxSample\obj\Debug\ComboListBoxSample.dll
 D:\My Documents\Visual Studio 2015\Projects\ComboListBoxSample\ComboListBoxSample\obj\Debug\ComboListBoxSample.xml
 D:\My Documents\Visual Studio 2015\Projects\ComboListBoxSample\ComboListBoxSample\obj\Debug\ComboListBoxSample.pdb
+D:\My Documents\GitHub\ComboListBoxSample\ComboListBoxSample\bin\ComboListBoxSample.dll.config
+D:\My Documents\GitHub\ComboListBoxSample\ComboListBoxSample\bin\ComboListBoxSample.dll
+D:\My Documents\GitHub\ComboListBoxSample\ComboListBoxSample\bin\ComboListBoxSample.pdb
+D:\My Documents\GitHub\ComboListBoxSample\ComboListBoxSample\bin\ComboListBoxSample.xml
+D:\My Documents\GitHub\ComboListBoxSample\ComboListBoxSample\obj\Debug\ComboListBoxSample.vbprojResolveAssemblyReference.cache
+D:\My Documents\GitHub\ComboListBoxSample\ComboListBoxSample\obj\Debug\ComboListBoxSample.Resources.resources
+D:\My Documents\GitHub\ComboListBoxSample\ComboListBoxSample\obj\Debug\ComboListBoxSample.vbproj.GenerateResource.Cache
+D:\My Documents\GitHub\ComboListBoxSample\ComboListBoxSample\obj\Debug\ComboListBoxSample.dll
+D:\My Documents\GitHub\ComboListBoxSample\ComboListBoxSample\obj\Debug\ComboListBoxSample.xml
+D:\My Documents\GitHub\ComboListBoxSample\ComboListBoxSample\obj\Debug\ComboListBoxSample.pdb
