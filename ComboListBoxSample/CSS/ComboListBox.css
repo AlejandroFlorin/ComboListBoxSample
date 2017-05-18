@@ -1,0 +1,121 @@
+﻿
+.CLBWrapper {
+   border-style: none;
+}
+
+.CLBWrapper table {
+   width: 100%;
+   margin: 0px;
+   padding: 0px;
+}
+
+.CLBWrapper td {
+   padding: 0px;
+   border: 0px;
+   border-style: none;
+}
+
+.CLBListBox {
+   border-style: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   font-weight: normal;
+   color: black;
+   width: 100%;
+   background-color: Transparent;
+}
+
+.CLBAddButtonCell {
+   width: 0%;
+   border-top: 1px solid #7F9DB9 !important;
+   border-left: 1px solid #7F9DB9 !important;
+   border-bottom: 0px;
+   background-color: White;
+   vertical-align: middle;
+   text-align: center;
+}
+
+.CLBEntryCell {
+   width: 100%;
+   background-color: White;
+   border-top: 1px solid #7F9DB9 !important;
+   border-right: 1px solid #7F9DB9 !important;
+   border-left: 1px solid #7F9DB9 !important;
+   border-bottom: none !important;
+}
+
+.IE9 .CLBEntryCell,
+.ChromeMac .CLBEntryCell,
+.ChromeWindows .CLBEntryCell {
+   padding-right: 3px !important;
+}
+
+.CLBArrowsCell {
+   border-top: 1px solid #7F9DB9 !important;
+   border-bottom: 1px solid #7F9DB9 !important;
+   border-left: 1px solid #7F9DB9 !important;
+   border-right: none !important;
+   background-color: White;
+   width: 0%;
+   vertical-align: top;
+}
+
+.CLBListBoxCell {
+   border: 1px solid #7F9DB9 !important;
+   background-color: White;
+   width: 100%;
+   vertical-align: top;
+}
+
+.CLBDeleteButtonCell {
+   border-top: 1px solid #7F9DB9 !important;
+   border-bottom: 1px solid #7F9DB9 !important;
+   border-right: 1px solid #7F9DB9 !important;
+   border-left: none !important;
+   background-color: White;
+   width: 0%;
+   vertical-align: top;
+}
+
+.CLBDropDownList {
+   border: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   font-weight: normal;
+   color: black;
+   width: 100%;
+   background-color: White;
+}
+
+.CLBTextBox {
+   border: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+   font-weight: normal;
+   color: black;
+   width: 100%;
+   background-color: White;
+   white-space: nowrap;
+   overflow: hidden;
+}
+
+.CLBUpArrow {
+   margin-top: 5px;
+   margin-right: 2px;
+   margin-left: 2px;
+}
+
+.CLBDownArrow {
+   margin-top: 10px;
+   margin-right: 2px;
+   margin-left: 2px;
+}
+
+.CLBAddButton {
+   margin: 2px !important;
+   margin-bottom: 0px !important;
+}
+
+.CLBDeleteButton {
+   margin: 3px;
+}

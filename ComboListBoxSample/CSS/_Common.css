@@ -1,0 +1,23 @@
+﻿/* zero out margin and padding of most elements to make all browsers display them equally */
+div, h1, h2, h3, h4, h5, h6, p, pre, address, blockquite, span, dl, dd, dt, img {
+	margin: 0px;
+	padding: 0px;
+}
+table {
+   border-collapse: collapse;
+   margin: 0px;
+}
+
+td {
+   padding: 2px;
+   margin: 0px;
+}
+
+/* Prevent TextBoxes at 100% from overlapping table cells on the right */
+textarea,
+input[type='text'],
+input[type='password'] {
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+}
